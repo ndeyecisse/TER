@@ -1,144 +1,144 @@
-Timestamp,User_ID,Application_Type,Signal_Strength,Latency,Required_Bandwidth,Allocated_Bandwidth,Resource_Allocation,Latency_ms,Signal_dBm,Required_BW_Mbps,Allocated_BW_Mbps,Anomalie_Latence,Anomalie_Signal,Anomalie_BW,Anomalie_Global
-9/3/2023 10:00,User_8,IoT_Temperature,-95 dBm,100 ms,10 Kbps,15 Kbps,50%,100.0,-95.0,0.01,0.015,False,True,False,True
-9/3/2023 10:00,User_18,Background_Download,-91 dBm,48 ms,600 Kbps,600 Kbps,55%,48.0,-91.0,0.6,0.6,False,True,False,True
-9/3/2023 10:00,User_19,IoT_Temperature,-96 dBm,105 ms,8 Kbps,9 Kbps,70%,105.0,-96.0,0.008,0.009,True,True,False,True
-9/3/2023 10:00,User_28,Background_Download,-92 dBm,47 ms,620 Kbps,620 Kbps,60%,47.0,-92.0,0.62,0.62,False,True,False,True
-9/3/2023 10:00,User_29,IoT_Temperature,-97 dBm,110 ms,7 Kbps,8 Kbps,65%,110.0,-97.0,0.007,0.008,True,True,False,True
-9/3/2023 10:00,User_38,Background_Download,-93 dBm,46 ms,630 Kbps,630 Kbps,60%,46.0,-93.0,0.63,0.63,False,True,False,True
-9/3/2023 10:00,User_39,IoT_Temperature,-98 dBm,105 ms,6 Kbps,7 Kbps,65%,105.0,-98.0,0.006,0.007,True,True,False,True
-9/3/2023 10:00,User_48,Background_Download,-94 dBm,45 ms,640 Kbps,640 Kbps,60%,45.0,-94.0,0.64,0.64,False,True,False,True
-9/3/2023 10:00,User_49,IoT_Temperature,-99 dBm,104 ms,5 Kbps,6 Kbps,65%,104.0,-99.0,0.005,0.006,True,True,False,True
-9/3/2023 10:01,User_58,Background_Download,-95 dBm,46 ms,650 Kbps,650 Kbps,60%,46.0,-95.0,0.65,0.65,False,True,False,True
-9/3/2023 10:01,User_59,IoT_Temperature,-100 dBm,103 ms,4 Kbps,5 Kbps,75%,103.0,-100.0,0.004,0.005,True,True,False,True
-9/3/2023 10:01,User_68,Background_Download,-96 dBm,45 ms,660 Kbps,660 Kbps,60%,45.0,-96.0,0.66,0.66,False,True,False,True
-9/3/2023 10:01,User_69,IoT_Temperature,-101 dBm,102 ms,3 Kbps,4 Kbps,75%,102.0,-101.0,0.003,0.004,True,True,False,True
-9/3/2023 10:01,User_73,Web_Browsing,-91 dBm,25 ms,0.9 Mbps,0.9 Mbps,70%,25.0,-91.0,0.9,0.9,False,True,False,True
-9/3/2023 10:01,User_78,Background_Download,-97 dBm,44 ms,670 Kbps,670 Kbps,60%,44.0,-97.0,0.67,0.67,False,True,False,True
-9/3/2023 10:01,User_79,IoT_Temperature,-102 dBm,101 ms,2 Kbps,3 Kbps,75%,101.0,-102.0,0.002,0.003,True,True,False,True
-9/3/2023 10:01,User_83,Web_Browsing,-92 dBm,24 ms,0.8 Mbps,0.8 Mbps,70%,24.0,-92.0,0.8,0.8,False,True,False,True
-9/3/2023 10:01,User_88,Background_Download,-98 dBm,43 ms,680 Kbps,680 Kbps,60%,43.0,-98.0,0.68,0.68,False,True,False,True
-9/3/2023 10:01,User_89,IoT_Temperature,-103 dBm,100 ms,1 Kbps,2 Kbps,75%,100.0,-103.0,0.001,0.002,False,True,False,True
-9/3/2023 10:01,User_93,Web_Browsing,-93 dBm,23 ms,0.7 Mbps,0.7 Mbps,70%,23.0,-93.0,0.7,0.7,False,True,False,True
-9/3/2023 10:01,User_98,Background_Download,-99 dBm,42 ms,690 Kbps,690 Kbps,60%,42.0,-99.0,0.69,0.69,False,True,False,True
-9/3/2023 10:01,User_99,IoT_Temperature,-104 dBm,99 ms,1 Kbps,2 Kbps,75%,99.0,-104.0,0.001,0.002,False,True,False,True
-9/3/2023 10:01,User_100,Video_Streaming,-91 dBm,28 ms,4.1 Mbps,4.4 Mbps,70%,28.0,-91.0,4.1,4.4,False,True,False,True
-9/3/2023 10:01,User_103,Web_Browsing,-92 dBm,25 ms,0.8 Mbps,0.8 Mbps,70%,25.0,-92.0,0.8,0.8,False,True,False,True
-9/3/2023 10:01,User_107,Background_Download,-97 dBm,44 ms,670 Kbps,670 Kbps,60%,44.0,-97.0,0.67,0.67,False,True,False,True
-9/3/2023 10:01,User_108,IoT_Temperature,-103 dBm,100 ms,1 Kbps,2 Kbps,75%,100.0,-103.0,0.001,0.002,False,True,False,True
-9/3/2023 10:02,User_113,Web_Browsing,-94 dBm,24 ms,0.7 Mbps,0.7 Mbps,70%,24.0,-94.0,0.7,0.7,False,True,False,True
-9/3/2023 10:02,User_118,Background_Download,-98 dBm,43 ms,680 Kbps,680 Kbps,60%,43.0,-98.0,0.68,0.68,False,True,False,True
-9/3/2023 10:02,User_119,IoT_Temperature,-102 dBm,99 ms,1 Kbps,2 Kbps,75%,99.0,-102.0,0.001,0.002,False,True,False,True
-9/3/2023 10:02,User_123,Web_Browsing,-92 dBm,25 ms,0.8 Mbps,0.8 Mbps,70%,25.0,-92.0,0.8,0.8,False,True,False,True
-9/3/2023 10:02,User_127,Background_Download,-97 dBm,44 ms,670 Kbps,670 Kbps,60%,44.0,-97.0,0.67,0.67,False,True,False,True
-9/3/2023 10:02,User_128,IoT_Temperature,-103 dBm,100 ms,1 Kbps,2 Kbps,75%,100.0,-103.0,0.001,0.002,False,True,False,True
-9/3/2023 10:02,User_132,Background_Download,-99 dBm,46 ms,620 Kbps,620 Kbps,60%,46.0,-99.0,0.62,0.62,False,True,False,True
-9/3/2023 10:02,User_138,Web_Browsing,-94 dBm,27 ms,0.6 Mbps,0.6 Mbps,70%,27.0,-94.0,0.6,0.6,False,True,False,True
-9/3/2023 10:02,User_139,Background_Download,-96 dBm,45 ms,660 Kbps,660 Kbps,60%,45.0,-96.0,0.66,0.66,False,True,False,True
-9/3/2023 10:02,User_145,Web_Browsing,-95 dBm,26 ms,0.7 Mbps,0.7 Mbps,70%,26.0,-95.0,0.7,0.7,False,True,False,True
-9/3/2023 10:02,User_146,Background_Download,-95 dBm,47 ms,610 Kbps,610 Kbps,60%,47.0,-95.0,0.61,0.61,False,True,False,True
-9/3/2023 10:02,User_153,Web_Browsing,-96 dBm,25 ms,0.6 Mbps,0.6 Mbps,70%,25.0,-96.0,0.6,0.6,False,True,False,True
-9/3/2023 10:02,User_154,Background_Download,-94 dBm,48 ms,650 Kbps,650 Kbps,60%,48.0,-94.0,0.65,0.65,False,True,False,True
-9/3/2023 10:02,User_160,Web_Browsing,-97 dBm,24 ms,0.5 Mbps,0.5 Mbps,70%,24.0,-97.0,0.5,0.5,False,True,False,True
-9/3/2023 10:02,User_161,Background_Download,-97 dBm,49 ms,640 Kbps,640 Kbps,60%,49.0,-97.0,0.64,0.64,False,True,False,True
-9/3/2023 10:02,User_168,Web_Browsing,-97 dBm,23 ms,0.5 Mbps,0.5 Mbps,70%,23.0,-97.0,0.5,0.5,False,True,False,True
-9/3/2023 10:02,User_169,Background_Download,-98 dBm,50 ms,630 Kbps,630 Kbps,60%,50.0,-98.0,0.63,0.63,False,True,False,True
-9/3/2023 10:03,User_176,Web_Browsing,-98 dBm,22 ms,0.5 Mbps,0.5 Mbps,70%,22.0,-98.0,0.5,0.5,False,True,False,True
-9/3/2023 10:03,User_177,Background_Download,-98 dBm,51 ms,620 Kbps,620 Kbps,60%,51.0,-98.0,0.62,0.62,False,True,False,True
-9/3/2023 10:03,User_184,Web_Browsing,-98 dBm,21 ms,0.5 Mbps,0.5 Mbps,70%,21.0,-98.0,0.5,0.5,False,True,False,True
-9/3/2023 10:03,User_185,Background_Download,-99 dBm,52 ms,610 Kbps,610 Kbps,60%,52.0,-99.0,0.61,0.61,False,True,False,True
-9/3/2023 10:03,User_192,Web_Browsing,-99 dBm,20 ms,0.4 Mbps,0.4 Mbps,70%,20.0,-99.0,0.4,0.4,False,True,False,True
-9/3/2023 10:03,User_193,Background_Download,-100 dBm,53 ms,600 Kbps,600 Kbps,60%,53.0,-100.0,0.6,0.6,False,True,False,True
-9/3/2023 10:03,User_200,Web_Browsing,-100 dBm,19 ms,0.4 Mbps,0.4 Mbps,70%,19.0,-100.0,0.4,0.4,False,True,False,True
-9/3/2023 10:03,User_201,Background_Download,-100 dBm,54 ms,590 Kbps,590 Kbps,60%,54.0,-100.0,0.59,0.59,False,True,False,True
-9/3/2023 10:03,User_208,Web_Browsing,-101 dBm,18 ms,0.4 Mbps,0.4 Mbps,70%,18.0,-101.0,0.4,0.4,False,True,False,True
-9/3/2023 10:03,User_209,Background_Download,-101 dBm,55 ms,580 Kbps,580 Kbps,60%,55.0,-101.0,0.58,0.58,False,True,False,True
-9/3/2023 10:03,User_216,Web_Browsing,-101 dBm,17 ms,0.4 Mbps,0.4 Mbps,70%,17.0,-101.0,0.4,0.4,False,True,False,True
-9/3/2023 10:03,User_217,Background_Download,-102 dBm,56 ms,570 Kbps,570 Kbps,60%,56.0,-102.0,0.57,0.57,False,True,False,True
-9/3/2023 10:03,User_222,Video_Streaming,-91 dBm,36 ms,3.2 Mbps,3.6 Mbps,70%,36.0,-91.0,3.2,3.6,False,True,False,True
-9/3/2023 10:03,User_224,Web_Browsing,-102 dBm,16 ms,0.4 Mbps,0.4 Mbps,70%,16.0,-102.0,0.4,0.4,False,True,False,True
-9/3/2023 10:03,User_225,Background_Download,-102 dBm,57 ms,560 Kbps,560 Kbps,60%,57.0,-102.0,0.56,0.56,False,True,False,True
-9/3/2023 10:03,User_230,Video_Streaming,-92 dBm,37 ms,3.1 Mbps,3.5 Mbps,70%,37.0,-92.0,3.1,3.5,False,True,False,True
-9/3/2023 10:04,User_232,Web_Browsing,-102 dBm,15 ms,0.3 Mbps,0.3 Mbps,70%,15.0,-102.0,0.3,0.3,False,True,False,True
-9/3/2023 10:04,User_233,Background_Download,-103 dBm,58 ms,550 Kbps,550 Kbps,60%,58.0,-103.0,0.55,0.55,False,True,False,True
-9/3/2023 10:04,User_238,Video_Streaming,-93 dBm,38 ms,3.0 Mbps,3.4 Mbps,70%,38.0,-93.0,3.0,3.4,False,True,False,True
-9/3/2023 10:04,User_240,Web_Browsing,-103 dBm,14 ms,0.3 Mbps,0.3 Mbps,70%,14.0,-103.0,0.3,0.3,False,True,False,True
-9/3/2023 10:04,User_241,Background_Download,-104 dBm,59 ms,540 Kbps,540 Kbps,60%,59.0,-104.0,0.54,0.54,False,True,False,True
-9/3/2023 10:04,User_244,Streaming,-91 dBm,42 ms,3.2 Mbps,3.7 Mbps,85%,42.0,-91.0,3.2,3.7,False,True,False,True
-9/3/2023 10:04,User_246,Video_Streaming,-94 dBm,39 ms,2.9 Mbps,3.3 Mbps,70%,39.0,-94.0,2.9,3.3,False,True,False,True
-9/3/2023 10:04,User_248,Web_Browsing,-103 dBm,13 ms,0.3 Mbps,0.3 Mbps,70%,13.0,-103.0,0.3,0.3,False,True,False,True
-9/3/2023 10:04,User_249,Background_Download,-105 dBm,60 ms,530 Kbps,530 Kbps,60%,60.0,-105.0,0.53,0.53,False,True,False,True
-9/3/2023 10:04,User_252,Streaming,-92 dBm,43 ms,3.1 Mbps,3.6 Mbps,85%,43.0,-92.0,3.1,3.6,False,True,False,True
-9/3/2023 10:04,User_254,Video_Streaming,-95 dBm,40 ms,2.8 Mbps,3.2 Mbps,70%,40.0,-95.0,2.8,3.2,False,True,False,True
-9/3/2023 10:04,User_256,Web_Browsing,-104 dBm,12 ms,0.2 Mbps,0.2 Mbps,70%,12.0,-104.0,0.2,0.2,False,True,False,True
-9/3/2023 10:04,User_257,Background_Download,-106 dBm,61 ms,520 Kbps,520 Kbps,60%,61.0,-106.0,0.52,0.52,False,True,False,True
-9/3/2023 10:04,User_260,Streaming,-93 dBm,44 ms,3.0 Mbps,3.5 Mbps,85%,44.0,-93.0,3.0,3.5,False,True,False,True
-9/3/2023 10:04,User_262,Video_Streaming,-96 dBm,41 ms,2.7 Mbps,3.1 Mbps,70%,41.0,-96.0,2.7,3.1,False,True,False,True
-9/3/2023 10:04,User_264,Web_Browsing,-104 dBm,11 ms,0.2 Mbps,0.2 Mbps,70%,11.0,-104.0,0.2,0.2,False,True,False,True
-9/3/2023 10:04,User_265,Background_Download,-107 dBm,62 ms,510 Kbps,510 Kbps,60%,62.0,-107.0,0.51,0.51,False,True,False,True
-9/3/2023 10:04,User_268,Streaming,-94 dBm,45 ms,2.9 Mbps,3.4 Mbps,85%,45.0,-94.0,2.9,3.4,False,True,False,True
-9/3/2023 10:04,User_270,Video_Streaming,-97 dBm,42 ms,2.6 Mbps,3.0 Mbps,70%,42.0,-97.0,2.6,3.0,False,True,False,True
-9/3/2023 10:04,User_272,Web_Browsing,-105 dBm,10 ms,0.2 Mbps,0.2 Mbps,70%,10.0,-105.0,0.2,0.2,False,True,False,True
-9/3/2023 10:04,User_273,Background_Download,-108 dBm,63 ms,500 Kbps,500 Kbps,60%,63.0,-108.0,0.5,0.5,False,True,False,True
-9/3/2023 10:04,User_276,Streaming,-95 dBm,46 ms,2.8 Mbps,3.3 Mbps,85%,46.0,-95.0,2.8,3.3,False,True,False,True
-9/3/2023 10:04,User_278,Video_Streaming,-98 dBm,43 ms,2.5 Mbps,2.9 Mbps,70%,43.0,-98.0,2.5,2.9,False,True,False,True
-9/3/2023 10:04,User_280,Web_Browsing,-105 dBm,9 ms,0.1 Mbps,0.1 Mbps,70%,9.0,-105.0,0.1,0.1,False,True,False,True
-9/3/2023 10:04,User_281,Background_Download,-109 dBm,64 ms,490 Kbps,490 Kbps,60%,64.0,-109.0,0.49,0.49,False,True,False,True
-9/3/2023 10:04,User_284,Streaming,-96 dBm,47 ms,2.7 Mbps,3.2 Mbps,85%,47.0,-96.0,2.7,3.2,False,True,False,True
-9/3/2023 10:04,User_286,Video_Streaming,-99 dBm,44 ms,2.4 Mbps,2.8 Mbps,70%,44.0,-99.0,2.4,2.8,False,True,False,True
-9/3/2023 10:04,User_288,Web_Browsing,-105 dBm,8 ms,0.1 Mbps,0.1 Mbps,70%,8.0,-105.0,0.1,0.1,False,True,False,True
-9/3/2023 10:04,User_289,Background_Download,-110 dBm,65 ms,480 Kbps,480 Kbps,60%,65.0,-110.0,0.48,0.48,False,True,False,True
-9/3/2023 10:05,User_292,Streaming,-97 dBm,48 ms,2.6 Mbps,3.1 Mbps,85%,48.0,-97.0,2.6,3.1,False,True,False,True
-9/3/2023 10:05,User_294,Video_Streaming,-100 dBm,45 ms,2.3 Mbps,2.7 Mbps,70%,45.0,-100.0,2.3,2.7,False,True,False,True
-9/3/2023 10:05,User_296,Web_Browsing,-106 dBm,7 ms,0.1 Mbps,0.1 Mbps,70%,7.0,-106.0,0.1,0.1,False,True,False,True
-9/3/2023 10:05,User_297,Background_Download,-111 dBm,66 ms,470 Kbps,470 Kbps,60%,66.0,-111.0,0.47,0.47,False,True,False,True
-9/3/2023 10:05,User_300,Streaming,-98 dBm,49 ms,2.5 Mbps,3.0 Mbps,85%,49.0,-98.0,2.5,3.0,False,True,False,True
-9/3/2023 10:05,User_302,Video_Streaming,-101 dBm,46 ms,2.2 Mbps,2.6 Mbps,70%,46.0,-101.0,2.2,2.6,False,True,False,True
-9/3/2023 10:05,User_304,Web_Browsing,-106 dBm,6 ms,0.1 Mbps,0.1 Mbps,70%,6.0,-106.0,0.1,0.1,False,True,False,True
-9/3/2023 10:05,User_305,Background_Download,-112 dBm,67 ms,460 Kbps,460 Kbps,60%,67.0,-112.0,0.46,0.46,False,True,False,True
-9/3/2023 10:05,User_308,Streaming,-99 dBm,50 ms,2.4 Mbps,2.9 Mbps,85%,50.0,-99.0,2.4,2.9,False,True,False,True
-9/3/2023 10:05,User_310,Video_Streaming,-102 dBm,47 ms,2.1 Mbps,2.5 Mbps,70%,47.0,-102.0,2.1,2.5,False,True,False,True
-9/3/2023 10:05,User_312,Web_Browsing,-107 dBm,5 ms,0.1 Mbps,0.1 Mbps,70%,5.0,-107.0,0.1,0.1,False,True,False,True
-9/3/2023 10:05,User_313,Background_Download,-113 dBm,68 ms,450 Kbps,450 Kbps,60%,68.0,-113.0,0.45,0.45,False,True,False,True
-9/3/2023 10:05,User_316,Streaming,-100 dBm,51 ms,2.3 Mbps,2.8 Mbps,85%,51.0,-100.0,2.3,2.8,False,True,False,True
-9/3/2023 10:05,User_318,Video_Streaming,-103 dBm,48 ms,2.0 Mbps,2.4 Mbps,70%,48.0,-103.0,2.0,2.4,False,True,False,True
-9/3/2023 10:05,User_320,Web_Browsing,-107 dBm,4 ms,0.1 Mbps,0.1 Mbps,70%,4.0,-107.0,0.1,0.1,False,True,False,True
-9/3/2023 10:05,User_321,Background_Download,-114 dBm,69 ms,440 Kbps,440 Kbps,60%,69.0,-114.0,0.44,0.44,False,True,False,True
-9/3/2023 10:05,User_324,Streaming,-101 dBm,52 ms,2.2 Mbps,2.7 Mbps,85%,52.0,-101.0,2.2,2.7,False,True,False,True
-9/3/2023 10:05,User_326,Video_Streaming,-104 dBm,49 ms,1.9 Mbps,2.3 Mbps,70%,49.0,-104.0,1.9,2.3,False,True,False,True
-9/3/2023 10:05,User_328,Web_Browsing,-108 dBm,3 ms,0.1 Mbps,0.1 Mbps,70%,3.0,-108.0,0.1,0.1,False,True,False,True
-9/3/2023 10:05,User_329,Background_Download,-115 dBm,70 ms,430 Kbps,430 Kbps,60%,70.0,-115.0,0.43,0.43,False,True,False,True
-9/3/2023 10:05,User_332,Streaming,-102 dBm,53 ms,2.1 Mbps,2.6 Mbps,85%,53.0,-102.0,2.1,2.6,False,True,False,True
-9/3/2023 10:05,User_334,Video_Streaming,-105 dBm,50 ms,1.8 Mbps,2.2 Mbps,70%,50.0,-105.0,1.8,2.2,False,True,False,True
-9/3/2023 10:05,User_336,Web_Browsing,-108 dBm,2 ms,0.1 Mbps,0.1 Mbps,70%,2.0,-108.0,0.1,0.1,False,True,False,True
-9/3/2023 10:05,User_337,Background_Download,-116 dBm,71 ms,420 Kbps,420 Kbps,60%,71.0,-116.0,0.42,0.42,False,True,False,True
-9/3/2023 10:05,User_340,Streaming,-103 dBm,54 ms,2.0 Mbps,2.5 Mbps,85%,54.0,-103.0,2.0,2.5,False,True,False,True
-9/3/2023 10:05,User_342,Video_Streaming,-106 dBm,51 ms,1.7 Mbps,2.1 Mbps,70%,51.0,-106.0,1.7,2.1,False,True,False,True
-9/3/2023 10:05,User_344,Web_Browsing,-109 dBm,1 ms,0.1 Mbps,0.1 Mbps,70%,1.0,-109.0,0.1,0.1,False,True,False,True
-9/3/2023 10:05,User_345,Background_Download,-117 dBm,72 ms,410 Kbps,410 Kbps,60%,72.0,-117.0,0.41,0.41,False,True,False,True
-9/3/2023 10:05,User_348,Streaming,-104 dBm,55 ms,1.9 Mbps,2.4 Mbps,85%,55.0,-104.0,1.9,2.4,False,True,False,True
-9/3/2023 10:05,User_350,Video_Streaming,-107 dBm,52 ms,1.6 Mbps,2.0 Mbps,70%,52.0,-107.0,1.6,2.0,False,True,False,True
-9/3/2023 10:06,User_352,Web_Browsing,-109 dBm,0 ms,0.1 Mbps,0.1 Mbps,70%,0.0,-109.0,0.1,0.1,False,True,False,True
-9/3/2023 10:06,User_353,Background_Download,-118 dBm,73 ms,400 Kbps,400 Kbps,60%,73.0,-118.0,0.4,0.4,False,True,False,True
-9/3/2023 10:06,User_356,Streaming,-105 dBm,56 ms,1.8 Mbps,2.3 Mbps,85%,56.0,-105.0,1.8,2.3,False,True,False,True
-9/3/2023 10:06,User_358,Video_Streaming,-108 dBm,53 ms,1.5 Mbps,1.9 Mbps,70%,53.0,-108.0,1.5,1.9,False,True,False,True
-9/3/2023 10:06,User_360,Web_Browsing,-110 dBm,0 ms,0.1 Mbps,0.1 Mbps,70%,0.0,-110.0,0.1,0.1,False,True,False,True
-9/3/2023 10:06,User_361,Background_Download,-119 dBm,74 ms,390 Kbps,390 Kbps,60%,74.0,-119.0,0.39,0.39,False,True,False,True
-9/3/2023 10:06,User_364,Streaming,-106 dBm,57 ms,1.7 Mbps,2.2 Mbps,85%,57.0,-106.0,1.7,2.2,False,True,False,True
-9/3/2023 10:06,User_366,Video_Streaming,-109 dBm,54 ms,1.4 Mbps,1.8 Mbps,70%,54.0,-109.0,1.4,1.8,False,True,False,True
-9/3/2023 10:06,User_368,Web_Browsing,-110 dBm,0 ms,0.1 Mbps,0.1 Mbps,70%,0.0,-110.0,0.1,0.1,False,True,False,True
-9/3/2023 10:06,User_369,Background_Download,-120 dBm,75 ms,380 Kbps,380 Kbps,60%,75.0,-120.0,0.38,0.38,False,True,False,True
-9/3/2023 10:06,User_372,Streaming,-107 dBm,58 ms,1.6 Mbps,2.1 Mbps,85%,58.0,-107.0,1.6,2.1,False,True,False,True
-9/3/2023 10:06,User_374,Video_Streaming,-110 dBm,55 ms,1.3 Mbps,1.7 Mbps,70%,55.0,-110.0,1.3,1.7,False,True,False,True
-9/3/2023 10:06,User_376,Web_Browsing,-111 dBm,0 ms,0.1 Mbps,0.1 Mbps,70%,0.0,-111.0,0.1,0.1,False,True,False,True
-9/3/2023 10:06,User_377,Background_Download,-121 dBm,76 ms,370 Kbps,370 Kbps,60%,76.0,-121.0,0.37,0.37,False,True,False,True
-9/3/2023 10:06,User_380,Streaming,-108 dBm,59 ms,1.5 Mbps,2.0 Mbps,85%,59.0,-108.0,1.5,2.0,False,True,False,True
-9/3/2023 10:06,User_382,Video_Streaming,-111 dBm,56 ms,1.2 Mbps,1.6 Mbps,70%,56.0,-111.0,1.2,1.6,False,True,False,True
-9/3/2023 10:06,User_384,Web_Browsing,-111 dBm,0 ms,0.1 Mbps,0.1 Mbps,70%,0.0,-111.0,0.1,0.1,False,True,False,True
-9/3/2023 10:06,User_385,Background_Download,-122 dBm,77 ms,360 Kbps,360 Kbps,60%,77.0,-122.0,0.36,0.36,False,True,False,True
-9/3/2023 10:06,User_388,Streaming,-109 dBm,60 ms,1.4 Mbps,1.9 Mbps,85%,60.0,-109.0,1.4,1.9,False,True,False,True
-9/3/2023 10:06,User_390,Video_Streaming,-112 dBm,57 ms,1.1 Mbps,1.5 Mbps,70%,57.0,-112.0,1.1,1.5,False,True,False,True
-9/3/2023 10:06,User_392,Web_Browsing,-112 dBm,0 ms,0.1 Mbps,0.1 Mbps,70%,0.0,-112.0,0.1,0.1,False,True,False,True
-9/3/2023 10:06,User_393,Background_Download,-123 dBm,78 ms,350 Kbps,350 Kbps,60%,78.0,-123.0,0.35,0.35,False,True,False,True
-9/3/2023 10:06,User_396,Streaming,-110 dBm,61 ms,1.3 Mbps,1.8 Mbps,85%,61.0,-110.0,1.3,1.8,False,True,False,True
-9/3/2023 10:06,User_398,Video_Streaming,-113 dBm,58 ms,1.0 Mbps,1.4 Mbps,70%,58.0,-113.0,1.0,1.4,False,True,False,True
-9/3/2023 10:06,User_400,Web_Browsing,-113 dBm,0 ms,0.1 Mbps,0.1 Mbps,70%,0.0,-113.0,0.1,0.1,False,True,False,True
+Timestamp,User_ID,Application_Type,Resource_Allocation,Latency_ms,Signal_dBm,Required_BW_Mbps,Allocated_BW_Mbps,Anomalie_Latence,Anomalie_Signal,Anomalie_BW,Anomalie_Global,Type_Anomalie
+9/3/2023 10:00,User_8,IoT_Temperature,50%,100.0,-95.0,0.01,0.015,False,True,False,True,1. Signal
+9/3/2023 10:00,User_18,Background_Download,55%,48.0,-91.0,0.6,0.6,False,True,False,True,1. Signal
+9/3/2023 10:00,User_19,IoT_Temperature,70%,105.0,-96.0,0.008,0.009,True,True,False,True,2. Latence + Signal
+9/3/2023 10:00,User_28,Background_Download,60%,47.0,-92.0,0.62,0.62,False,True,False,True,1. Signal
+9/3/2023 10:00,User_29,IoT_Temperature,65%,110.0,-97.0,0.007,0.008,True,True,False,True,2. Latence + Signal
+9/3/2023 10:00,User_38,Background_Download,60%,46.0,-93.0,0.63,0.63,False,True,False,True,1. Signal
+9/3/2023 10:00,User_39,IoT_Temperature,65%,105.0,-98.0,0.006,0.007,True,True,False,True,2. Latence + Signal
+9/3/2023 10:00,User_48,Background_Download,60%,45.0,-94.0,0.64,0.64,False,True,False,True,1. Signal
+9/3/2023 10:00,User_49,IoT_Temperature,65%,104.0,-99.0,0.005,0.006,True,True,False,True,2. Latence + Signal
+9/3/2023 10:01,User_58,Background_Download,60%,46.0,-95.0,0.65,0.65,False,True,False,True,1. Signal
+9/3/2023 10:01,User_59,IoT_Temperature,75%,103.0,-100.0,0.004,0.005,True,True,False,True,2. Latence + Signal
+9/3/2023 10:01,User_68,Background_Download,60%,45.0,-96.0,0.66,0.66,False,True,False,True,1. Signal
+9/3/2023 10:01,User_69,IoT_Temperature,75%,102.0,-101.0,0.003,0.004,True,True,False,True,2. Latence + Signal
+9/3/2023 10:01,User_73,Web_Browsing,70%,25.0,-91.0,0.9,0.9,False,True,False,True,1. Signal
+9/3/2023 10:01,User_78,Background_Download,60%,44.0,-97.0,0.67,0.67,False,True,False,True,1. Signal
+9/3/2023 10:01,User_79,IoT_Temperature,75%,101.0,-102.0,0.002,0.003,True,True,False,True,2. Latence + Signal
+9/3/2023 10:01,User_83,Web_Browsing,70%,24.0,-92.0,0.8,0.8,False,True,False,True,1. Signal
+9/3/2023 10:01,User_88,Background_Download,60%,43.0,-98.0,0.68,0.68,False,True,False,True,1. Signal
+9/3/2023 10:01,User_89,IoT_Temperature,75%,100.0,-103.0,0.001,0.002,False,True,False,True,1. Signal
+9/3/2023 10:01,User_93,Web_Browsing,70%,23.0,-93.0,0.7,0.7,False,True,False,True,1. Signal
+9/3/2023 10:01,User_98,Background_Download,60%,42.0,-99.0,0.69,0.69,False,True,False,True,1. Signal
+9/3/2023 10:01,User_99,IoT_Temperature,75%,99.0,-104.0,0.001,0.002,False,True,False,True,1. Signal
+9/3/2023 10:01,User_100,Video_Streaming,70%,28.0,-91.0,4.1,4.4,False,True,False,True,1. Signal
+9/3/2023 10:01,User_103,Web_Browsing,70%,25.0,-92.0,0.8,0.8,False,True,False,True,1. Signal
+9/3/2023 10:01,User_107,Background_Download,60%,44.0,-97.0,0.67,0.67,False,True,False,True,1. Signal
+9/3/2023 10:01,User_108,IoT_Temperature,75%,100.0,-103.0,0.001,0.002,False,True,False,True,1. Signal
+9/3/2023 10:02,User_113,Web_Browsing,70%,24.0,-94.0,0.7,0.7,False,True,False,True,1. Signal
+9/3/2023 10:02,User_118,Background_Download,60%,43.0,-98.0,0.68,0.68,False,True,False,True,1. Signal
+9/3/2023 10:02,User_119,IoT_Temperature,75%,99.0,-102.0,0.001,0.002,False,True,False,True,1. Signal
+9/3/2023 10:02,User_123,Web_Browsing,70%,25.0,-92.0,0.8,0.8,False,True,False,True,1. Signal
+9/3/2023 10:02,User_127,Background_Download,60%,44.0,-97.0,0.67,0.67,False,True,False,True,1. Signal
+9/3/2023 10:02,User_128,IoT_Temperature,75%,100.0,-103.0,0.001,0.002,False,True,False,True,1. Signal
+9/3/2023 10:02,User_132,Background_Download,60%,46.0,-99.0,0.62,0.62,False,True,False,True,1. Signal
+9/3/2023 10:02,User_138,Web_Browsing,70%,27.0,-94.0,0.6,0.6,False,True,False,True,1. Signal
+9/3/2023 10:02,User_139,Background_Download,60%,45.0,-96.0,0.66,0.66,False,True,False,True,1. Signal
+9/3/2023 10:02,User_145,Web_Browsing,70%,26.0,-95.0,0.7,0.7,False,True,False,True,1. Signal
+9/3/2023 10:02,User_146,Background_Download,60%,47.0,-95.0,0.61,0.61,False,True,False,True,1. Signal
+9/3/2023 10:02,User_153,Web_Browsing,70%,25.0,-96.0,0.6,0.6,False,True,False,True,1. Signal
+9/3/2023 10:02,User_154,Background_Download,60%,48.0,-94.0,0.65,0.65,False,True,False,True,1. Signal
+9/3/2023 10:02,User_160,Web_Browsing,70%,24.0,-97.0,0.5,0.5,False,True,False,True,1. Signal
+9/3/2023 10:02,User_161,Background_Download,60%,49.0,-97.0,0.64,0.64,False,True,False,True,1. Signal
+9/3/2023 10:02,User_168,Web_Browsing,70%,23.0,-97.0,0.5,0.5,False,True,False,True,1. Signal
+9/3/2023 10:02,User_169,Background_Download,60%,50.0,-98.0,0.63,0.63,False,True,False,True,1. Signal
+9/3/2023 10:03,User_176,Web_Browsing,70%,22.0,-98.0,0.5,0.5,False,True,False,True,1. Signal
+9/3/2023 10:03,User_177,Background_Download,60%,51.0,-98.0,0.62,0.62,False,True,False,True,1. Signal
+9/3/2023 10:03,User_184,Web_Browsing,70%,21.0,-98.0,0.5,0.5,False,True,False,True,1. Signal
+9/3/2023 10:03,User_185,Background_Download,60%,52.0,-99.0,0.61,0.61,False,True,False,True,1. Signal
+9/3/2023 10:03,User_192,Web_Browsing,70%,20.0,-99.0,0.4,0.4,False,True,False,True,1. Signal
+9/3/2023 10:03,User_193,Background_Download,60%,53.0,-100.0,0.6,0.6,False,True,False,True,1. Signal
+9/3/2023 10:03,User_200,Web_Browsing,70%,19.0,-100.0,0.4,0.4,False,True,False,True,1. Signal
+9/3/2023 10:03,User_201,Background_Download,60%,54.0,-100.0,0.59,0.59,False,True,False,True,1. Signal
+9/3/2023 10:03,User_208,Web_Browsing,70%,18.0,-101.0,0.4,0.4,False,True,False,True,1. Signal
+9/3/2023 10:03,User_209,Background_Download,60%,55.0,-101.0,0.58,0.58,False,True,False,True,1. Signal
+9/3/2023 10:03,User_216,Web_Browsing,70%,17.0,-101.0,0.4,0.4,False,True,False,True,1. Signal
+9/3/2023 10:03,User_217,Background_Download,60%,56.0,-102.0,0.57,0.57,False,True,False,True,1. Signal
+9/3/2023 10:03,User_222,Video_Streaming,70%,36.0,-91.0,3.2,3.6,False,True,False,True,1. Signal
+9/3/2023 10:03,User_224,Web_Browsing,70%,16.0,-102.0,0.4,0.4,False,True,False,True,1. Signal
+9/3/2023 10:03,User_225,Background_Download,60%,57.0,-102.0,0.56,0.56,False,True,False,True,1. Signal
+9/3/2023 10:03,User_230,Video_Streaming,70%,37.0,-92.0,3.1,3.5,False,True,False,True,1. Signal
+9/3/2023 10:04,User_232,Web_Browsing,70%,15.0,-102.0,0.3,0.3,False,True,False,True,1. Signal
+9/3/2023 10:04,User_233,Background_Download,60%,58.0,-103.0,0.55,0.55,False,True,False,True,1. Signal
+9/3/2023 10:04,User_238,Video_Streaming,70%,38.0,-93.0,3.0,3.4,False,True,False,True,1. Signal
+9/3/2023 10:04,User_240,Web_Browsing,70%,14.0,-103.0,0.3,0.3,False,True,False,True,1. Signal
+9/3/2023 10:04,User_241,Background_Download,60%,59.0,-104.0,0.54,0.54,False,True,False,True,1. Signal
+9/3/2023 10:04,User_244,Streaming,85%,42.0,-91.0,3.2,3.7,False,True,False,True,1. Signal
+9/3/2023 10:04,User_246,Video_Streaming,70%,39.0,-94.0,2.9,3.3,False,True,False,True,1. Signal
+9/3/2023 10:04,User_248,Web_Browsing,70%,13.0,-103.0,0.3,0.3,False,True,False,True,1. Signal
+9/3/2023 10:04,User_249,Background_Download,60%,60.0,-105.0,0.53,0.53,False,True,False,True,1. Signal
+9/3/2023 10:04,User_252,Streaming,85%,43.0,-92.0,3.1,3.6,False,True,False,True,1. Signal
+9/3/2023 10:04,User_254,Video_Streaming,70%,40.0,-95.0,2.8,3.2,False,True,False,True,1. Signal
+9/3/2023 10:04,User_256,Web_Browsing,70%,12.0,-104.0,0.2,0.2,False,True,False,True,1. Signal
+9/3/2023 10:04,User_257,Background_Download,60%,61.0,-106.0,0.52,0.52,False,True,False,True,1. Signal
+9/3/2023 10:04,User_260,Streaming,85%,44.0,-93.0,3.0,3.5,False,True,False,True,1. Signal
+9/3/2023 10:04,User_262,Video_Streaming,70%,41.0,-96.0,2.7,3.1,False,True,False,True,1. Signal
+9/3/2023 10:04,User_264,Web_Browsing,70%,11.0,-104.0,0.2,0.2,False,True,False,True,1. Signal
+9/3/2023 10:04,User_265,Background_Download,60%,62.0,-107.0,0.51,0.51,False,True,False,True,1. Signal
+9/3/2023 10:04,User_268,Streaming,85%,45.0,-94.0,2.9,3.4,False,True,False,True,1. Signal
+9/3/2023 10:04,User_270,Video_Streaming,70%,42.0,-97.0,2.6,3.0,False,True,False,True,1. Signal
+9/3/2023 10:04,User_272,Web_Browsing,70%,10.0,-105.0,0.2,0.2,False,True,False,True,1. Signal
+9/3/2023 10:04,User_273,Background_Download,60%,63.0,-108.0,0.5,0.5,False,True,False,True,1. Signal
+9/3/2023 10:04,User_276,Streaming,85%,46.0,-95.0,2.8,3.3,False,True,False,True,1. Signal
+9/3/2023 10:04,User_278,Video_Streaming,70%,43.0,-98.0,2.5,2.9,False,True,False,True,1. Signal
+9/3/2023 10:04,User_280,Web_Browsing,70%,9.0,-105.0,0.1,0.1,False,True,False,True,1. Signal
+9/3/2023 10:04,User_281,Background_Download,60%,64.0,-109.0,0.49,0.49,False,True,False,True,1. Signal
+9/3/2023 10:04,User_284,Streaming,85%,47.0,-96.0,2.7,3.2,False,True,False,True,1. Signal
+9/3/2023 10:04,User_286,Video_Streaming,70%,44.0,-99.0,2.4,2.8,False,True,False,True,1. Signal
+9/3/2023 10:04,User_288,Web_Browsing,70%,8.0,-105.0,0.1,0.1,False,True,False,True,1. Signal
+9/3/2023 10:04,User_289,Background_Download,60%,65.0,-110.0,0.48,0.48,False,True,False,True,1. Signal
+9/3/2023 10:05,User_292,Streaming,85%,48.0,-97.0,2.6,3.1,False,True,False,True,1. Signal
+9/3/2023 10:05,User_294,Video_Streaming,70%,45.0,-100.0,2.3,2.7,False,True,False,True,1. Signal
+9/3/2023 10:05,User_296,Web_Browsing,70%,7.0,-106.0,0.1,0.1,False,True,False,True,1. Signal
+9/3/2023 10:05,User_297,Background_Download,60%,66.0,-111.0,0.47,0.47,False,True,False,True,1. Signal
+9/3/2023 10:05,User_300,Streaming,85%,49.0,-98.0,2.5,3.0,False,True,False,True,1. Signal
+9/3/2023 10:05,User_302,Video_Streaming,70%,46.0,-101.0,2.2,2.6,False,True,False,True,1. Signal
+9/3/2023 10:05,User_304,Web_Browsing,70%,6.0,-106.0,0.1,0.1,False,True,False,True,1. Signal
+9/3/2023 10:05,User_305,Background_Download,60%,67.0,-112.0,0.46,0.46,False,True,False,True,1. Signal
+9/3/2023 10:05,User_308,Streaming,85%,50.0,-99.0,2.4,2.9,False,True,False,True,1. Signal
+9/3/2023 10:05,User_310,Video_Streaming,70%,47.0,-102.0,2.1,2.5,False,True,False,True,1. Signal
+9/3/2023 10:05,User_312,Web_Browsing,70%,5.0,-107.0,0.1,0.1,False,True,False,True,1. Signal
+9/3/2023 10:05,User_313,Background_Download,60%,68.0,-113.0,0.45,0.45,False,True,False,True,1. Signal
+9/3/2023 10:05,User_316,Streaming,85%,51.0,-100.0,2.3,2.8,False,True,False,True,1. Signal
+9/3/2023 10:05,User_318,Video_Streaming,70%,48.0,-103.0,2.0,2.4,False,True,False,True,1. Signal
+9/3/2023 10:05,User_320,Web_Browsing,70%,4.0,-107.0,0.1,0.1,False,True,False,True,1. Signal
+9/3/2023 10:05,User_321,Background_Download,60%,69.0,-114.0,0.44,0.44,False,True,False,True,1. Signal
+9/3/2023 10:05,User_324,Streaming,85%,52.0,-101.0,2.2,2.7,False,True,False,True,1. Signal
+9/3/2023 10:05,User_326,Video_Streaming,70%,49.0,-104.0,1.9,2.3,False,True,False,True,1. Signal
+9/3/2023 10:05,User_328,Web_Browsing,70%,3.0,-108.0,0.1,0.1,False,True,False,True,1. Signal
+9/3/2023 10:05,User_329,Background_Download,60%,70.0,-115.0,0.43,0.43,False,True,False,True,1. Signal
+9/3/2023 10:05,User_332,Streaming,85%,53.0,-102.0,2.1,2.6,False,True,False,True,1. Signal
+9/3/2023 10:05,User_334,Video_Streaming,70%,50.0,-105.0,1.8,2.2,False,True,False,True,1. Signal
+9/3/2023 10:05,User_336,Web_Browsing,70%,2.0,-108.0,0.1,0.1,False,True,False,True,1. Signal
+9/3/2023 10:05,User_337,Background_Download,60%,71.0,-116.0,0.42,0.42,False,True,False,True,1. Signal
+9/3/2023 10:05,User_340,Streaming,85%,54.0,-103.0,2.0,2.5,False,True,False,True,1. Signal
+9/3/2023 10:05,User_342,Video_Streaming,70%,51.0,-106.0,1.7,2.1,False,True,False,True,1. Signal
+9/3/2023 10:05,User_344,Web_Browsing,70%,1.0,-109.0,0.1,0.1,False,True,False,True,1. Signal
+9/3/2023 10:05,User_345,Background_Download,60%,72.0,-117.0,0.41,0.41,False,True,False,True,1. Signal
+9/3/2023 10:05,User_348,Streaming,85%,55.0,-104.0,1.9,2.4,False,True,False,True,1. Signal
+9/3/2023 10:05,User_350,Video_Streaming,70%,52.0,-107.0,1.6,2.0,False,True,False,True,1. Signal
+9/3/2023 10:06,User_352,Web_Browsing,70%,0.0,-109.0,0.1,0.1,False,True,False,True,1. Signal
+9/3/2023 10:06,User_353,Background_Download,60%,73.0,-118.0,0.4,0.4,False,True,False,True,1. Signal
+9/3/2023 10:06,User_356,Streaming,85%,56.0,-105.0,1.8,2.3,False,True,False,True,1. Signal
+9/3/2023 10:06,User_358,Video_Streaming,70%,53.0,-108.0,1.5,1.9,False,True,False,True,1. Signal
+9/3/2023 10:06,User_360,Web_Browsing,70%,0.0,-110.0,0.1,0.1,False,True,False,True,1. Signal
+9/3/2023 10:06,User_361,Background_Download,60%,74.0,-119.0,0.39,0.39,False,True,False,True,1. Signal
+9/3/2023 10:06,User_364,Streaming,85%,57.0,-106.0,1.7,2.2,False,True,False,True,1. Signal
+9/3/2023 10:06,User_366,Video_Streaming,70%,54.0,-109.0,1.4,1.8,False,True,False,True,1. Signal
+9/3/2023 10:06,User_368,Web_Browsing,70%,0.0,-110.0,0.1,0.1,False,True,False,True,1. Signal
+9/3/2023 10:06,User_369,Background_Download,60%,75.0,-120.0,0.38,0.38,False,True,False,True,1. Signal
+9/3/2023 10:06,User_372,Streaming,85%,58.0,-107.0,1.6,2.1,False,True,False,True,1. Signal
+9/3/2023 10:06,User_374,Video_Streaming,70%,55.0,-110.0,1.3,1.7,False,True,False,True,1. Signal
+9/3/2023 10:06,User_376,Web_Browsing,70%,0.0,-111.0,0.1,0.1,False,True,False,True,1. Signal
+9/3/2023 10:06,User_377,Background_Download,60%,76.0,-121.0,0.37,0.37,False,True,False,True,1. Signal
+9/3/2023 10:06,User_380,Streaming,85%,59.0,-108.0,1.5,2.0,False,True,False,True,1. Signal
+9/3/2023 10:06,User_382,Video_Streaming,70%,56.0,-111.0,1.2,1.6,False,True,False,True,1. Signal
+9/3/2023 10:06,User_384,Web_Browsing,70%,0.0,-111.0,0.1,0.1,False,True,False,True,1. Signal
+9/3/2023 10:06,User_385,Background_Download,60%,77.0,-122.0,0.36,0.36,False,True,False,True,1. Signal
+9/3/2023 10:06,User_388,Streaming,85%,60.0,-109.0,1.4,1.9,False,True,False,True,1. Signal
+9/3/2023 10:06,User_390,Video_Streaming,70%,57.0,-112.0,1.1,1.5,False,True,False,True,1. Signal
+9/3/2023 10:06,User_392,Web_Browsing,70%,0.0,-112.0,0.1,0.1,False,True,False,True,1. Signal
+9/3/2023 10:06,User_393,Background_Download,60%,78.0,-123.0,0.35,0.35,False,True,False,True,1. Signal
+9/3/2023 10:06,User_396,Streaming,85%,61.0,-110.0,1.3,1.8,False,True,False,True,1. Signal
+9/3/2023 10:06,User_398,Video_Streaming,70%,58.0,-113.0,1.0,1.4,False,True,False,True,1. Signal
+9/3/2023 10:06,User_400,Web_Browsing,70%,0.0,-113.0,0.1,0.1,False,True,False,True,1. Signal
