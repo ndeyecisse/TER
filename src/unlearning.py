@@ -8,7 +8,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-def grad_reverse(x, lambda_=1.0):
+def grad_reverse(x, lambda_=0.001):
     class GradientReversalFunction(Function):
         @staticmethod
         def forward(ctx, input):
@@ -36,7 +36,7 @@ class GradientUnlearningModel(nn.Module):
             nn.Linear(32, num_classes)
         )
 
-    def forward(self, x, lambda_=1.0):
+    def forward(self, x, lambda_=0.001):
         shared_feat = self.shared(x)
         reverse_feat = grad_reverse(shared_feat, lambda_)
         return self.regressor(shared_feat), self.adversary(reverse_feat)
@@ -71,7 +71,7 @@ def train_unlearning_model(X_train, y_train, y_train_adv, input_dim, num_classes
 
     for epoch in range(epochs):
         model.train()
-        pred_latency, pred_app_type = model(X_train, lambda_=1.0)
+        pred_latency, pred_app_type = model(X_train, lambda_=0.001)
 
         loss_latency = criterion_reg(pred_latency, y_train)
         loss_adversarial = criterion_adv(pred_app_type, y_train_adv)

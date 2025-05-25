@@ -18,13 +18,18 @@ df = detect_anomalies(df)
 export_anomalies(df)
 plot_anomalies(df)
 
+# 🔍 Étape intermédiaire : Analyse des applications les plus anormales
+print("\n=== Analyse : Taux d'anomalies par type d'application ===")
+anomalie_stats = df.groupby("Application_Type")["Anomalie_Global"].mean().sort_values(ascending=False)
+print(anomalie_stats)
+
 print("\n=== Étape 4 : Modèle prédictif (réseau de neurones classique) ===")
 (X_train, X_test, y_train, y_test), _ = prepare_features(df)
 model_baseline = train_latency_model(X_train, y_train, input_dim=X_train.shape[1])
 evaluate_model(model_baseline, X_test, y_test)
 
 print("\n=== Étape 5 : Suppression ciblée (Unlearning) ===")
-df_unlearned = remove_application_type(df, app_type="Video")
+df_unlearned = remove_application_type(df, app_type="IoT_Temperature")
 (X_train_un, X_test_un, y_train_un, y_test_un), _ = prepare_features(df_unlearned)
 model_clean = train_latency_model(X_train_un, y_train_un, input_dim=X_train_un.shape[1])
 evaluate_model(model_clean, X_test_un, y_test_un)
