@@ -109,7 +109,7 @@ def evaluate_unlearning(model, X_test, y_test):
     plt.savefig("graphs/unlearning_prediction_vs_reel_iot.png")
     plt.close()
 
-def remove_application_type(df, app_type="IoT_Temperatureo"):
+def remove_application_type(df, app_type="IoT_Temperature"):
     df_cleaned = df[df["Application_Type"] != app_type].copy()
     print(f"{len(df) - len(df_cleaned)} entrées supprimées pour Application_Type = '{app_type}'")
     return df_cleaned
