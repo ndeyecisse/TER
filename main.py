@@ -1,5 +1,5 @@
 # === main.py : Orchestrateur du projet TER ===
-
+from src.unlearning import compare_models
 from src.data_loading import load_and_prepare_data
 from src.eda import plot_distributions, plot_correlation_matrix
 from src.anomalies import detect_anomalies, export_anomalies, plot_anomalies
@@ -33,5 +33,14 @@ print("\n=== Étape 6 : Gradient Reversal (Unlearning) ===")
 (X_train_adv, X_test_adv, y_train_adv, y_test_adv, y_train_app, y_test_app), encoder = prepare_data_for_unlearning(df)
 model_adv = train_unlearning_model(X_train_adv, y_train_adv, y_train_app, input_dim=X_train_adv.shape[1], num_classes=len(encoder.classes_))
 evaluate_unlearning(model_adv, X_test_adv, y_test_adv)
+
+print("\n=== Étape 7 : Comparaison des modèles ===")
+compare_models(
+    model_baseline,         # modèle sur tout le dataset
+    model_clean,            # modèle sans une app_type (ex: IoT_temperature ou Video)
+    model_adv,              # modèle avec Gradient Reversal
+    X_test, y_test,         # test complet
+    X_test_un, y_test_un    # test sans l'app supprimée
+)
 
 print("\n Projet TER exécuté avec succès. Résultats dans 'graphs/' et 'reports/'")

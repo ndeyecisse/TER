@@ -106,18 +106,40 @@ def evaluate_unlearning(model, X_test, y_test):
     plt.grid(True)
     plt.plot([min(true), max(true)], [min(true), max(true)], "r--")
     plt.tight_layout()
-    plt.savefig("graphs/unlearning_prediction_vs_reel.png")
+    plt.savefig("graphs/unlearning_prediction_vs_reel_iot.png")
     plt.close()
 
-def remove_application_type(df, app_type="Video"):
+def remove_application_type(df, app_type="IoT_Temperatureo"):
     df_cleaned = df[df["Application_Type"] != app_type].copy()
     print(f"{len(df) - len(df_cleaned)} entrées supprimées pour Application_Type = '{app_type}'")
     return df_cleaned
+
+def compare_models(model_full, model_clean, model_adv, X_test, y_test, X_test_un, y_test_un):
+    from sklearn.metrics import mean_squared_error
+
+    model_full.eval()
+    model_clean.eval()
+    model_adv.eval()
+
+    with torch.no_grad():
+        pred_full = model_full(X_test).numpy()
+        pred_clean = model_clean(X_test_un).numpy()
+        pred_adv, _ = model_adv(X_test)
+        
+    mse_full = mean_squared_error(y_test.numpy(), pred_full)
+    mse_clean = mean_squared_error(y_test_un.numpy(), pred_clean)
+    mse_adv = mean_squared_error(y_test.numpy(), pred_adv)
+
+    print("\n Comparaison des modèles :")
+    print(f"Modèle complet        (avec 'IoT_temperature') : MSE = {mse_full:.4f}")
+    print(f"Modèle sans IoT       (données nettoyées)     : MSE = {mse_clean:.4f}")
+    print(f"Modèle avec Unlearning (GRL)                  : MSE = {mse_adv:.4f}")
 
 if __name__ == "__main__":
     from data_loading import load_and_prepare_data
     from anomalies import detect_anomalies
     from model_training import prepare_features, train_latency_model, evaluate_model
+    
 
     df = load_and_prepare_data()
     df = detect_anomalies(df)
@@ -128,7 +150,7 @@ if __name__ == "__main__":
     evaluate_model(model_full, X_test, y_test)
 
     # Suppression ciblée
-    df_unlearned = remove_application_type(df, app_type="Video")
+    df_unlearned = remove_application_type(df, app_type="IoT_Temperature")
     (X_train_un, X_test_un, y_train_un, y_test_un), _ = prepare_features(df_unlearned)
     model_clean = train_latency_model(X_train_un, y_train_un, input_dim=X_train_un.shape[1])
     evaluate_model(model_clean, X_test_un, y_test_un)
@@ -137,3 +159,5 @@ if __name__ == "__main__":
     (X_train, X_test, y_train, y_test, y_train_adv, y_test_adv), encoder = prepare_data_for_unlearning(df)
     model_adv = train_unlearning_model(X_train, y_train, y_train_adv, input_dim=X_train.shape[1], num_classes=len(encoder.classes_))
     evaluate_unlearning(model_adv, X_test, y_test)
+
+    
