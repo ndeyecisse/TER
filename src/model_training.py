@@ -72,7 +72,7 @@ def evaluate_model(model, X_test, y_test):
 
     # MSE
     mse = mean_squared_error(true, predictions)
-    print(f"📉 MSE du modèle classique : {mse:.4f}")
+    print(f"MSE du modèle classique : {mse:.4f}")
     
 
     os.makedirs("graphs", exist_ok=True)
