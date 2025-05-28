@@ -8,7 +8,7 @@ def load_and_prepare_data(filepath="data/Quality of Service 5G.csv"):
 
     # Chargement du fichier CSV
     df = pd.read_csv(filepath)
-    print(f" Données chargées : {df.shape[0]} lignes, {df.shape[1]} colonnes")
+    print(f"Données chargées : {df.shape[0]} lignes, {df.shape[1]} colonnes")
 
     # Conversion des colonnes de texte en valeurs numériques
     df["Latency_ms"] = df["Latency"].str.replace(" ms", "").astype(float)

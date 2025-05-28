@@ -4,8 +4,8 @@ import seaborn as sns
 import os
 
 def detect_anomalies(df):
-    seuil_latence = 100         
-    seuil_signal = -90          
+    seuil_latence = 80        
+    seuil_signal = -70          
 
     df["Anomalie_Latence"] = df["Latency_ms"] > seuil_latence
     df["Anomalie_Signal"] = df["Signal_dBm"] < seuil_signal
@@ -103,5 +103,6 @@ if __name__ == "__main__":
     from data_loading import load_and_prepare_data
     df = load_and_prepare_data()
     df = detect_anomalies(df)
+    print(f"\nTaux global d'anomalies : {df['Anomalie_Global'].mean():.2%}")
     export_anomalies(df)
     plot_anomalies(df)

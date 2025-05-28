@@ -60,4 +60,4 @@ compare_models(
     y_test_app, encoder
 )
 
-print("\n Projet TER exécuté avec succès. Résultats dans 'graphs/' et 'reports/'")
+print("\n Projet TER exécuté avec succès. Résultats dans 'graphs/'")

@@ -13,7 +13,7 @@ def prepare_features(df):
     features = df_encoded.drop(columns=[
     "Timestamp", "User_ID", "Resource_Allocation",
     "Anomalie_Latence", "Anomalie_Signal", "Anomalie_BW", "Anomalie_Global",
-    "Type_Anomalie",  # ← ajoute ceci !
+    "Type_Anomalie",
     "Latency_ms"
     ], errors="ignore")
 

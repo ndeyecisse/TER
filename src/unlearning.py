@@ -1,4 +1,3 @@
-# === unlearning.py corrigé proprement ===
 
 import torch
 import torch.nn as nn
@@ -79,7 +78,8 @@ def prepare_data_for_unlearning(df):
 
 # === Entraînement du modèle GRL ===
 def train_unlearning_model(X_train, y_train, y_train_adv, input_dim, num_classes, lambda_=1.5, epochs=600):
-    model = GradientUnlearningModel(input_dim, num_classes)
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    model = GradientUnlearningModel(input_dim, num_classes).to(device)
     criterion_reg = nn.MSELoss()
     criterion_adv = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
@@ -87,8 +87,8 @@ def train_unlearning_model(X_train, y_train, y_train_adv, input_dim, num_classes
     for epoch in range(epochs):
         model.train()
 
-        #  Entraîner l'adversaire 10x plus souvent
-        for _ in range(10):
+        #  Entraîner l'adversaire 17x plus souvent
+        for _ in range(17):
             _, pred_app = model(X_train, lambda_=lambda_)
             loss_adv = criterion_adv(pred_app, y_train_adv)
             optimizer.zero_grad()
@@ -124,8 +124,8 @@ def evaluate_unlearning(model, X_test, y_test, y_test_app):
 
         mse_unlearn = mean_squared_error(true, predictions)
 
-    print(f"\n📉 MSE du modèle GRL : {mse_unlearn:.4f}")
-    print(f"🎯 Accuracy adversaire (doit être faible si unlearning efficace) : {accuracy:.4f}")
+    print(f"\n MSE du modèle GRL : {mse_unlearn:.4f}")
+    print(f"Accuracy adversaire (doit être faible si unlearning efficace) : {accuracy:.4f}")
 
     os.makedirs("graphs", exist_ok=True)
     plt.figure(figsize=(8, 4))
@@ -139,7 +139,7 @@ def evaluate_unlearning(model, X_test, y_test, y_test_app):
     plt.savefig("graphs/unlearning_prediction_vs_reel.png")
     plt.close()
 
-    return mse_unlearn, accuracy
+    return mse_unlearn, accuracy, predictions, true
 
 # === Suppression ciblée ===
 def remove_application_type(df, app_type="IoT_Temperature"):
@@ -182,7 +182,7 @@ def compare_models(model_full, model_clean, model_adv, X_test, y_test, X_test_un
         accuracy_adv = accuracy_score(y_test_app.numpy(), pred_app_labels.numpy())
 
     print("\n=== Comparaison des modèles ===")
-    print(f"📘 Modèle Complet          → MSE = {mse_full:.4f}")
-    print(f"🧹 Modèle Nettoyé (sans IoT) → MSE = {mse_clean:.4f}")
-    print(f"🧠 Modèle GRL (Unlearning)   → MSE = {mse_adv:.4f}")
-    print(f"🎯 Accuracy adversaire GRL   → {accuracy_adv:.4f} (doit être proche du hasard)")
+    print(f" Modèle Complet          → MSE = {mse_full:.4f}")
+    print(f" Modèle Nettoyé (sans IoT) → MSE = {mse_clean:.4f}")
+    print(f" Modèle GRL (Unlearning)   → MSE = {mse_adv:.4f}")
+    print(f" Accuracy adversaire GRL   → {accuracy_adv:.4f} (doit être proche du hasard)")
