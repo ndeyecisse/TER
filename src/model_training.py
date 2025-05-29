@@ -45,11 +45,11 @@ class DeepLatencyModel6Layers(nn.Module):
     def forward(self, x):
         return self.model(x)
 
-def train_latency_model(X_train, y_train, input_dim, epochs=1000, lr=0.001):
+def train_latency_model(X_train, y_train, input_dim, epochs=600, lr=0.001):
     model = DeepLatencyModel6Layers(input_dim)
     criterion = nn.MSELoss()
     optimizer = torch.optim.Adam(model.parameters(), lr=lr)
-
+    train_losses = []
     for epoch in range(epochs):
         model.train()
         outputs = model(X_train)
@@ -58,9 +58,25 @@ def train_latency_model(X_train, y_train, input_dim, epochs=1000, lr=0.001):
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
+        train_losses.append(loss.item())
 
         if (epoch + 1) % 100 == 0:
             print(f"Époque {epoch+1}/{epochs} - Perte : {loss.item():.4f}")
+    # La courbe de perte
+    os.makedirs("graphs", exist_ok=True)
+    plt.figure(figsize=(8, 4))
+    plt.plot(train_losses, label="Perte d'entraînement")
+    plt.xlabel("Époques")
+    plt.ylabel("Loss (MSE)")
+    plt.title("Courbe de perte - Modèle classique")
+    plt.legend()
+    plt.grid(True)
+    plt.tight_layout()
+    plt.savefig("graphs/classic_loss_curve.png")
+    plt.close()
+
+    return model
+
 
     return model
 
